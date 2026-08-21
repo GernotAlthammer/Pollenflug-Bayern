@@ -1,0 +1,10 @@
+{
+  "domain": "pollenflug_bayern",
+  "name": "LGL Pollenflug Bayern",
+  "codeowners": ["@GernotAlthammer"],
+  "config_flow": true,
+  "version": "1.0.0",
+  "dependencies": [],
+  "requirements": [],
+  "iot_class": "cloud_polling"
+}
