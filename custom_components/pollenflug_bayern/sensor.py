@@ -30,8 +30,10 @@ async def async_setup_entry(hass, entry, async_add_entities):
                 parsed_data = {}
                 if "measurements" in data:
                     for item in data["measurements"]:
-                        pollen = item.get("pollen")
-                        if item.get("data") and len(item["data"]) > 0:
+                        # HIER IST DIE KORREKTUR: "polle" statt "pollen"
+                        pollen = item.get("polle") 
+                        if pollen and item.get("data") and len(item["data"]) > 0:
+                            # Wir nehmen den aktuellsten Wert (Index 0)
                             parsed_data[pollen] = float(item["data"][0].get("value", 0.0))
                 return parsed_data
         except Exception as err:
