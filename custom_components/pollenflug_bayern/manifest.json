@@ -3,8 +3,10 @@
   "name": "LGL Pollenflug Bayern",
   "codeowners": ["@GernotAlthammer"],
   "config_flow": true,
-  "version": "1.0.0",
   "dependencies": [],
-  "requirements": [],
+  "documentation": "https://github.com/GernotAlthammer/Pollenflug-Bayern",
   "iot_class": "cloud_polling"
+  "issue_tracker": "https://github.com/GernotAlthammer/Pollenflug-Bayern/issues",
+  "requirements": [],
+  "version": "1.0.0",
 }
