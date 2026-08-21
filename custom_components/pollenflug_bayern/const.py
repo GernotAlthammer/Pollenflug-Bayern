@@ -1,7 +1,6 @@
 DOMAIN = "pollenflug_bayern"
 PLATFORMS = ["sensor"]
 
-API_URL = "https://epin.lgl.bayern.de/api/measurements?locations=DEVIEC"
 SENSOR_TYPES = [
     "Abies", "Acer", "Aesculus", "Alnus", "Ambrosia", "Artemisia", "Asteraceae", 
     "Betula", "Carpinus", "Castanea", "Chenopodium", "Corylus", "Cruciferae", 
