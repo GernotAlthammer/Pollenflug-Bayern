@@ -3,9 +3,10 @@
     "step": {
       "user": {
         "title": "Set up Pollenflug Bayern",
-        "description": "Please select the desired ePIN measuring station. All available pollen types for this location are automatically retrieved.",
+        "description": "Please select the monitoring station and your preferred language for the sensor names.",
         "data": {
           "location": "Measuring station"
+          "language": "Language of pollen names"
         }
       }
     },
