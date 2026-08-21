@@ -1,0 +1,6 @@
+{
+  "name": "Pollenflug Bayern (ePIN)",
+  "render_readme": true,
+  "filename": "pollenflug_bayern.zip",
+  "iot_class": "Cloud Polling"
+}
