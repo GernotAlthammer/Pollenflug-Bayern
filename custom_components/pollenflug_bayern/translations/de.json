@@ -3,11 +3,17 @@
     "step": {
       "user": {
         "title": "Pollenflug Bayern einrichten",
-        "description": "Möchtest du die LGL Pollenflug Bayern Integration hinzufügen? Es werden automatisch Sensoren für alle verfügbaren Pollenarten abgerufen."
+        "description": "Bitte wähle die gewünschte ePIN Messstation aus. Es werden automatisch alle verfügbaren Pollenarten für diesen Standort abgerufen.",
+        "data": {
+          "location": "Messstation"
+        }
       }
     },
+    "error": {
+      "cannot_connect": "Verbindung zur ePIN API des LGL fehlgeschlagen."
+    },
     "abort": {
-      "already_configured": "Diese Integration ist bereits eingerichtet."
+      "already_configured": "Diese Messstation wurde bereits eingerichtet."
     }
   }
 }
