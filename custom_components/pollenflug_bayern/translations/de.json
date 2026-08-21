@@ -1,0 +1,13 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Pollenflug Bayern einrichten",
+        "description": "Möchtest du die LGL Pollenflug Bayern Integration hinzufügen? Es werden automatisch Sensoren für alle verfügbaren Pollenarten abgerufen."
+      }
+    },
+    "abort": {
+      "already_configured": "Diese Integration ist bereits eingerichtet."
+    }
+  }
+}
