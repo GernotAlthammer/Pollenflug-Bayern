@@ -3,11 +3,17 @@
     "step": {
       "user": {
         "title": "Set up Pollenflug Bayern",
-        "description": "Would you like to add the LGL Pollenflug Bayern integration? Sensors for all available pollen types will be retrieved automatically."
+        "description": "Please select the desired ePIN measuring station. All available pollen types for this location are automatically retrieved.",
+        "data": {
+          "location": "Measuring station"
+        }
       }
     },
+    "error": {
+      "cannot_connect": "Connection to the LGL ePIN API failed."
+    },
     "abort": {
-      "already_configured": "This integration is already set up."
+      "already_configured": "This measuring station has already been set up."
     }
   }
 }
