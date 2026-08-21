@@ -3,9 +3,10 @@
     "step": {
       "user": {
         "title": "Pollenflug Bayern einrichten",
-        "description": "Bitte wähle die gewünschte ePIN Messstation aus. Es werden automatisch alle verfügbaren Pollenarten für diesen Standort abgerufen.",
+        "description": "Bitte wähle die Messstation und deine bevorzugte Sprache für die Sensor-Namen aus.",
         "data": {
-          "location": "Messstation"
+          "location": "Messstation",
+          "language": "Sprache der Pollennamen"
         }
       }
     },
